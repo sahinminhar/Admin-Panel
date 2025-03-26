@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+/* Login Styles */
+.login-page {
+  min-height: 50vh;
+}
+.dashboard-page {
+  background-color: #fff; 
+  min-height: 100vh; 
+}
+#login-section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 80px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-checkbox {
+  margin-right: 10px;
+}
+
+.form-checkbox-label {
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#login-btn {
+  width: 30%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#login-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#signup-btn {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#signup-btn:hover {
+  color: #0056b3;
+}
+
+
+/* Dashboard Styles */
+.dashboard {
+  display: flex;
+  background-color: white;
+}
+.sidebar {
+  width: 200px;
+  background: #343a40;
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+.sidebar-link{
+  text-decoration: none;
+  color: white;
+}
+.sidebar-item{
+  list-style: none;
+}
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+}
+.header h1 {
+  margin: 0 0 20px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+.primary {
+  background: #007bff;
+}
+.warning {
+  background: #ffc107;
+}
+.success {
+  background: #28a745;
+}
+.danger {
+  background: #dc3545;
+}
+/* Footer container */
+#footer{
+  display: flex;
+  background-color: white;
+  height: 55px;
+}
+.copyrigth{
+  background-color: #6c757d;
+  height: 22px;
+}
+.footer-links{   
+  display: flex;
+}
+.footer-item{
+  list-style: none;
+  padding: 3px;
+  margin-top: 12px;
+}
+.footer-link{
+  text-decoration: none;
+  color: gray; 
+}
+.privacy{
+  margin-left: 130vh;
+}
+
+.dashbord {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px; /* Add spacing for content */
+}
+
+.navbar {
+  margin-bottom: 0; /* Remove unnecessary margins */
+}
+.sidebar {
+  position: fixed;
+  height: 100%;
+  z-index: 999; /* Ensure it doesn't overlap the Navbar */
+}
+
+.main-content {
+  margin-left: 200px; /* Adjust to match the Sidebar's width */
+}
+
+.navbar {
+  z-index: 1000; /* Place above the Sidebar */
+  position: relative; /* Ensure visibility */
+}
+
